@@ -22,18 +22,15 @@ int main(void)
 	(p_d) = &d;
 	(p_j) = &j;
 
+	//impressao
 	printf("Variável char: %c\n", *p_c);
-	printf("Ponteiro: %p\n", p_c);
+	printf("Ponteiro: %p\n\n", p_c);
 
-	printf("Variável: %f\n", *p_d);
-	printf("Ponteiro: %p\n", p_d);
+	printf("Variável double: %f\n", *p_d);
+	printf("Ponteiro: %p\n\n", p_d);
 
-	printf("Variável: %d\n", *p_j);
-	printf("Ponteiro: %p\n", p_j);
-
-
-
-
+	printf("Variável int: %d\n", *p_j);
+	printf("Ponteiro: %p\n\n", p_j);
 
 	return 0;
 }

@@ -5,14 +5,14 @@ contagem feita. Teste esta função a partir da função main(). */
 
 #include<stdio.h>
 
-int spaces(char vet[])
+int spaces(char v[])
 {
-	int i, count, tam = 0;
-	tam = strlen(vet) -1;
-	
+	int tam, i, count = 0;
+	tam = strlen(v) -1;
+
 	for(i = 0; i < tam; i++)
 	{
-		if(isspace(vet[i]))
+		if(isspace(v[i]))
 		{
 			count++;
 		}
@@ -22,15 +22,12 @@ int spaces(char vet[])
 
 int main(void)
 {
-	//char vet[] = "teste de texto";
 	int tam = 100;
-
 	char word[tam];
-	printf("Informe uma string string: ");
+
+	printf("Enter a String: ");
 	fgets(word, tam, stdin);
 
-	
 	printf("%d\n", spaces(word));
-
 	return 0;
 }
