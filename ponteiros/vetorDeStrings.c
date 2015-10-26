@@ -18,6 +18,7 @@ int main(void)
 
 	printf("\n");
 	max = vs[0]; //setar a primeira posicao como sendo a maior
+	
 	for (i = 0; i < tam; i++)
 	{
 		t_s = strlen(vs[i]);
@@ -26,11 +27,11 @@ int main(void)
 			max = t_s;
 			indice = i;
 		}
-
 		
-		printf("Maior: %d\n", max);
-		printf("String: %s ", vs[indice]);
 	}
+
+	printf("Maior: %d\n", max);
+	printf("String: %s ", vs[indice]);
 
 	return 0;
 }
