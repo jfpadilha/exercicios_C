@@ -1,2 +1,2 @@
 # exercicios_C
-Práticas de manipulação de ponteiros em C
+Práticas e exemplos de exercícios com muita lógica para iniciantes.
