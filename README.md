@@ -1,2 +1,2 @@
 ## Exercicios em C
-Práticas e exemplos de exercícios com para iniciantes.
+Práticas e exemplos de exercícios para iniciantes.
