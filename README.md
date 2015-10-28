@@ -1,2 +1,2 @@
-# exercicios_C
-Práticas e exemplos de exercícios com muita lógica para iniciantes.
+## Exercicios em C
+Práticas e exemplos de exercícios para iniciantes.
