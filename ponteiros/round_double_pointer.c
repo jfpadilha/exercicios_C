@@ -29,13 +29,8 @@ void round_double_pointer(double *p_d)
 
 int main(void)
 {
-	double value = 3.7;
-	// round_double_pointer(&value);
-
-	double *pointer = &value;
-	round_double_pointer(pointer);	
-	
-
+	double value = 3.7;	
+	round_double_pointer(&value);	
 	printf("%.lf\n", value);
 	return 0;
 }
